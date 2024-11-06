@@ -1,0 +1,79 @@
+
+
+header , nav ul{
+    display: flex;
+    background-color: rgb(37, 81, 66);
+    height: 50px;
+}
+
+header{
+    justify-content: space-between;
+}
+nav ul{
+    gap: 35px;
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+nav ul li{
+    list-style: none;
+    height: 50px;
+    margin-right: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black
+}
+.bnt-login{
+    background-color: green;
+    padding: 1px 10px 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    height: 1.5rem;
+}
+.bnt-login a{
+    color: white;    
+}
+
+.overview{
+   background-image: url(/images/plan.png);
+   height: 600px;
+   background-size: 100% 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.overview .contenair{
+    width: 60%;
+    min-width: 400px;
+    max-width: 600px;
+    text-align: center;
+    color: #ffff;
+}
+.title{
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.btn{
+    cursor: pointer;
+    background-color: aqua;
+}
+.mere{
+    display: flex;
+}
+.partiedroite{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+.title{
+    text-decoration-line: underline;
+}
+.partiedroite{
+    font-style: italic;
+}
